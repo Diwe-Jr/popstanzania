@@ -160,7 +160,7 @@ header{
 /* Hero Section */
 .about-hero2 {
     Height: 90vh;
-    Background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/tugedha.jpg');
+    Background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/tugedha.jpg');
     Background-size: cover;
     Background-position: center;
     background-position-y: -4;
