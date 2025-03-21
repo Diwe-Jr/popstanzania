@@ -7,7 +7,7 @@
     font-weight: weight;
     font-style: normal;
     scroll-behavior: auto;
-    max-width: 100%;
+    max-width: auto;
     flex-wrap: wrap; 
 }
 
