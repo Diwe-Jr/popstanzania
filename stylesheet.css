@@ -7,6 +7,10 @@
     font-weight: weight;
     font-style: normal;
     scroll-behavior: auto;
+    max-width: 100%;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
 }
 
 :root {
