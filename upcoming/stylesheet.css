@@ -1,5 +1,5 @@
 *{
-    
+    margin: 0;
     Padding: 0;
     Box-sizing: border-box;
     font-family: "Outfit", serif;
@@ -22,7 +22,7 @@
 body {
     background-color: var(--bg-color);
     overflow-x: hidden;
-    margin: 0;
+    
     
 }
 
