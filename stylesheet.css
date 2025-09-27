@@ -22,10 +22,6 @@
 body {
     background-color: var(--bg-color);
     overflow-x: hidden;
-    @media(max-width: 768px){
-        width:100%;
-    }
-    
 }
 
 header{
@@ -222,9 +218,9 @@ header{
 .mission{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 0;
+    padding: 50px;
     margin-bottom: 0rem;
-    margin-top: 0;
+    margin-top: 8rem;
     gap: 3rem;
 }
 
@@ -472,9 +468,9 @@ header{
     Font-size: 0.9em;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .testimonials-container {
-        grid-template-columns: repeat(2, 1fr);
+        width:100%;
     }
 }
 
@@ -1285,5 +1281,6 @@ header{
     border-top: 1px solid #0099cc;
     margin-top: 1rem;
 }
+
 
 
