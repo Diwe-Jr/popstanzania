@@ -22,6 +22,9 @@
 body {
     background-color: var(--bg-color);
     overflow-x: hidden;
+    @media(max-width: 768px){
+        width:100%;
+    }
     
 }
 
@@ -522,6 +525,7 @@ header{
 
 @media (max-width: 768px) {
     .testimonials {
+        width: 100%;
         Padding: 4rem 1rem;
     }
 
@@ -773,6 +777,7 @@ header{
 
 @media (max-width: 768px) {
     .section-container {
+        width: 100%;
         Padding: 3rem 5%;
     }
     
@@ -1280,4 +1285,5 @@ header{
     border-top: 1px solid #0099cc;
     margin-top: 1rem;
 }
+
 
