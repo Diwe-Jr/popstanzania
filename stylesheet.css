@@ -219,9 +219,9 @@ header{
 .mission{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 50px;
+    padding: 0;
     margin-bottom: 0rem;
-    margin-top: 8rem;
+    margin-top: 0;
     gap: 3rem;
 }
 
@@ -1280,3 +1280,4 @@ header{
     border-top: 1px solid #0099cc;
     margin-top: 1rem;
 }
+
