@@ -468,18 +468,6 @@ header{
     Font-size: 0.9em;
 }
 
-@media screen and (max-width: 768px) {
-    .testimonials-container {
-        width:100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .testimonials-container {
-        Grid-template-columns: 1fr;
-    }
-}
-
 @keyframes backgroundAnimation {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
@@ -500,42 +488,6 @@ header{
     Opacity: 0.8;
     Margin-bottom: 3rem;
     Font-size: 1.1rem;
-}
-
-@keyframes fadeIn {
-    From {
-        Opacity: 0;
-        Transform: translateY(20px);
-    }
-    To {
-        Opacity: 1;
-        Transform: translateY(0);
-    }
-}
-
-@media (max-width: 1200px) {
-    .testimonials-wrapper {
-        Grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
-    .testimonials {
-        width: 100%;
-        Padding: 4rem 1rem;
-    }
-
-    .testimonials-wrapper {
-        Grid-template-columns: 1fr;
-    }
-
-    .section-title {
-        Font-size: 2rem;
-    }
-
-    .testimonial-card {
-        Padding: 1.5rem;
-    }
 }
 
 /*Events Section*/
@@ -602,17 +554,6 @@ header{
     Color: var(--text-color);
     Opacity: 0.8;
     Margin-bottom: 1rem;
-}
-
-@keyframes fadeInUp {
-    From {
-        Opacity: 0;
-        Transform: translateY(20px);
-    }
-    To {
-        Opacity: 1;
-        Transform: translateY(0);
-    }
 }
 
 /*About us*/
@@ -1281,6 +1222,7 @@ header{
     border-top: 1px solid #0099cc;
     margin-top: 1rem;
 }
+
 
 
 
